@@ -1,0 +1,45 @@
+.folder {
+    width: 100%;
+
+    background: #185b88;
+    margin-bottom: 5px;
+}
+
+.folder h6 {
+    padding: 0;
+    margin: 0;
+}
+
+.folder-title {
+    padding: 5px 5px;
+
+    background: #0c3a58;
+    color: #cacaca;
+}
+
+
+.folder-files {
+    display: none;
+}
+
+.folder-file-name {
+    color: #b3b3b3;
+}
+
+.folder-create {
+    padding: 5px 5px;
+
+    border: 1px solid #185b88;
+    color: #b3b3b3;
+    text-align: center;
+
+    margin: 0 15px;
+}
+
+.folder-delete {
+    color: #f65050;
+}
+
+.folder:hover .folder-files {
+    display: block;
+}

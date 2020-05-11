@@ -1,0 +1,28 @@
+.preview {
+    width: 39%;
+    height: 100%;
+}
+
+.preview iframe {
+    width: 96%;
+    height: 15%;
+
+    margin: 2%;
+    padding: 2px 2px;
+
+    border-radius: 15px;
+    resize: none;
+
+    overflow: auto;
+
+    border: none;
+
+    outline: none;
+    color: #ffffff;
+    background: #363636;
+}
+
+.preview .preview-page {
+    height: 77%;
+    background: none;
+}

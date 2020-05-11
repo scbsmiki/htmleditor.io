@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    display: inline-flex;
+
+    background: #1a1a1a;
+}
+
+.files {
+    width: 15%;
+    height: 100%;
+
+    overflow: auto;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.x18 {
+    font-size: 18px;
+}
+
+.x16 {
+    font-size: 6px
+}
+
+.x12 {
+    font-size: 12px
+}
+
+.x7 {
+    font-size: 7px
+}
+
+.js {
+    color: #d1c844;
+}
+.css {
+    color: #3691ce;
+}
+.html {
+    color: #da5b2a;
+}
