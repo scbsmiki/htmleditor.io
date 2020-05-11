@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor HTML</title>
+
+    <link rel="stylesheet" href="Styles/Main.css">
+
+    <link rel="stylesheet" href="Styles/Folder.css">
+    <link rel="stylesheet" href="Styles/Code.css">
+    <link rel="stylesheet" href="Styles/Preview.css">
+</head>
+<body>
+    
+    <div class="main">
+
+        <div class="files">
+
+            <div class="folder">
+                <div class="folder-title x18">
+                    <span class="folder-delete x18 pointer" onclick="DeleteFolder(1)">X</span> Main
+                </div>
+                <div class="folder-files">
+
+                    <h6 class="folder-file-name x16 pointer">
+                        <span class="folder-delete x16 pointer" onclick="DeleteFile(0)">X</span> Main<span class="folder-file-ext css x7">.css</span>
+                    </h6>
+
+                    <div class="folder-title x18 pointer">
+                        Criar novo arquivo
+                    </div>
+                </div>
+            </div>
+
+            <div class="folder-create x18 pointer" onclick="CreateFolder()">
+                Criar nova pasta
+            </div>
+        </div>
+        
+        <div class="coder">
+            <textarea class="coder-textarea x16" onkeyup="WriteCode()" wrap="hard"></textarea>
+        </div>
+
+        <div class="preview">
+
+            <iframe class="preview-page" frameborder="0"></iframe>
+            <iframe class="preview-console-code" frameborder="0"></iframe>
+
+        </div>
+
+    </div>
+
+    <script src="Scripts/vars.js"></script>
+    <script src="Scripts/folder.js"></script>
+    <script src="Scripts/code.js"></script>
+
+</body>
+</html>

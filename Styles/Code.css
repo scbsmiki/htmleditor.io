@@ -1,0 +1,23 @@
+.coder {
+    width: 45%;
+    height: 100%;
+}
+
+.coder-textarea {
+    width: 96%;
+    height: 96%;
+
+    margin: 2%;
+    padding: 2px 2px;
+
+    border-radius: 15px;
+    resize: none;
+
+    overflow: auto;
+
+    border: none;
+
+    outline: none;
+    color: #ffffff;
+    background: #363636;
+}
